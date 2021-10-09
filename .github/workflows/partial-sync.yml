@@ -2,7 +2,7 @@ name: Partial Sync Notion Star
 
 on:
   schedule:
-    - cron: '31 * * * *'
+    - cron: '*/2 * * * *'
 jobs:
   partial-sync:
     runs-on: ubuntu-latest
